@@ -7,10 +7,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* .container {
-  padding: 20px 100px 20px 100px;
-} */
-
 nav {
   display: flex;
   padding: 10px 150px 10px 150px;
@@ -50,7 +46,7 @@ nav > a {
 
 .first_section {
   display: flex;
-
+  gap: 50px;
   padding: 50px 150px 50px 150px;
 }
 
@@ -106,4 +102,26 @@ nav > a {
   max-width: 100%;
   border: 3px solid #3882f6;
   border-radius: 10px;
+}
+
+.third_section {
+  padding: 0px 150px 50px 150px;
+  background-color: #e5e7eb;
+}
+
+.quote_section {
+  padding: 50px 120px 50px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.quote_author {
+  align-self: flex-end;
 }
