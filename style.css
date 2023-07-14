@@ -13,7 +13,7 @@ body {
 
 nav {
   display: flex;
-  padding: 10px 100px 10px 100px;
+  padding: 10px 150px 10px 150px;
   gap: 15px;
 }
 
@@ -51,7 +51,7 @@ nav > a {
 .first_section {
   display: flex;
 
-  padding: 50px 100px 50px 100px;
+  padding: 50px 150px 50px 150px;
 }
 
 .first_section img {
@@ -76,4 +76,34 @@ nav > a {
   border-radius: 5px;
   color: white;
   padding: 5px 15px 5px 15px;
+}
+
+.second_section {
+  padding: 0px 150px 50px 150px;
+}
+
+.info_section {
+  padding: 50px 80px 50px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.second_section h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  align-self: center;
+}
+
+.info_images {
+  display: flex;
+  gap: 50px;
+}
+
+.info_images img {
+  height: auto;
+  max-width: 100%;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
 }
