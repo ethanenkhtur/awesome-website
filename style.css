@@ -1,3 +1,49 @@
-.container {
-  margin: 20px 100px 20px 100px;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* .container {
+  padding: 20px 100px 20px 100px;
+} */
+
+nav {
+  display: flex;
+  padding: 10px 100px 10px 100px;
+  gap: 15px;
+}
+
+nav > a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.header_logo {
+  margin-right: auto;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header_link_text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero_main_text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero_secondary_text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.first-container {
+  background-color: #1f2937;
+}
+
+.first_section {
+  display: flex;
 }
