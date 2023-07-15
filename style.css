@@ -48,6 +48,7 @@ nav > a {
   display: flex;
   gap: 50px;
   padding: 50px 150px 50px 150px;
+  flex-wrap: wrap;
 }
 
 .first_section img {
@@ -71,7 +72,7 @@ nav > a {
   border: 0;
   border-radius: 5px;
   color: white;
-  padding: 5px 15px 5px 15px;
+  padding: 5px 20px 5px 20px;
 }
 
 .second_section {
@@ -124,4 +125,30 @@ nav > a {
 
 .quote_author {
   align-self: flex-end;
+}
+
+.fourth_section {
+  padding: 50px 170px 50px 170px;
+}
+
+.fourth_section > div {
+  background-color: #3882f6;
+  color: white;
+  padding: 40px 80px 40px 80px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourth_section button {
+  border: 1px solid white;
+  border-radius: 10px;
+  opacity: 100%;
+  color: white;
+  background-color: #3882f6;
+  padding: 5px 20px 5px 20px;
+}
+
+.call_to_action {
+  font-size: x-large;
 }
