@@ -128,7 +128,7 @@ nav > a {
 }
 
 .fourth_section {
-  padding: 50px 170px 50px 170px;
+  padding: 70px 170px 70px 170px;
 }
 
 .fourth_section > div {
@@ -151,4 +151,12 @@ nav > a {
 
 .call_to_action {
   font-size: x-large;
+}
+
+footer {
+  padding: 25px 150px 25px 150px;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
